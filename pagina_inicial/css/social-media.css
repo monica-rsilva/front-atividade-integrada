@@ -1,0 +1,38 @@
+.social-media{
+    width: 20vw;
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+}
+
+.social{
+    width: 8vh;
+    height: 8vh;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.developers{
+    font-size: 20px;
+}
+
+.contato-container{
+    display: flex;
+    height: 19vh;
+    flex-direction: column;
+    padding-top: 3vh;
+    gap: 16px;
+}
+.contato-item {
+    display: flex;
+    font-size: 1.2rem;
+    gap: 12px;
+}
+.contato-item__text{
+    font-size: 16px;
+}
+

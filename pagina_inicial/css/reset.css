@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+header {
+    width: 100vw;
+    height: 14vh;
+    display: flex;
+    font-size: 36px;
+    font-weight: 500;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3347B0;
+    gap: 60%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.logo-texto {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+main {
+    width: 100vw;
+    height: 67vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+footer {
+    width: 100vw;
+    height: 19vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3347B0;
+}
+.message{
+    font-size: 48px;
+    color: #353535;
+}
+
+.devices{
+    display: flex;
+    width: 30vw;
+    gap: 30px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.studant-image{
+    height: 48vh;
+}
+
+.device-image{
+    width: 27vw;
+    height: 32vh;
+}
+
+.bt {
+    width: 300px;
+    height: 150px;
+    border: none;
+    background: #3347B0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    border: 1px solid #000000;
+    box-shadow: 12px 12px 4px rgba(51, 71, 176, 0.5);
+}
+
+.bt:hover{
+    border: 2px solid #fff;
+}
