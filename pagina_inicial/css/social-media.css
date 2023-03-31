@@ -6,9 +6,9 @@
 }
 
 .social{
-    width: 8vh;
-    height: 8vh;
-    font-size: 1.2rem;
+    width: 7vw;
+    height: 7vh;
+    font-size: 1.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
 
 .contato-container{
     display: flex;
-    height: 19vh;
+    height: 15vh;
     flex-direction: column;
     padding-top: 3vh;
     gap: 16px;
